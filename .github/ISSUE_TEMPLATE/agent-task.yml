@@ -1,0 +1,54 @@
+name: Agent task
+description: Implementation task intended for a coding/automation agent
+title: ""
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Agent lifecycle policy
+
+        This issue is governed by the Crowdprobe organization-wide agent lifecycle policy in `CONTRIBUTING.md`.
+
+        **Opening or merging a PR does not complete the issue.** The result must be verified against the acceptance criteria after merge/deploy/apply as applicable.
+
+        If verification is blocked or fails, keep the issue open, document the result, create a corrective PR, and retry verification. Maximum: **3 verification-fix retries**. If verification is still blocked/failing after retry 3, leave the issue open and reassign it to `@triesz` (peter.triesz@crowdprobe.com).
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What outcome should this issue deliver?
+      placeholder: Describe the desired end state.
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: What should the agent implement or change?
+      placeholder: List the concrete implementation requirements and constraints.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define the checks that must pass before the issue may be closed.
+      placeholder: |
+        - [ ] Requested behavior is implemented
+        - [ ] Result is verified in the real target environment where applicable
+        - [ ] Verification result is documented
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / notes
+      description: Optional links, dependencies, implementation guidance, or constraints.
+    validations:
+      required: false
