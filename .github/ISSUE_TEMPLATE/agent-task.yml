@@ -13,7 +13,7 @@ body:
 
         **Opening or merging a PR does not complete the issue.** The result must be verified against the acceptance criteria after merge/deploy/apply as applicable.
 
-        If verification is blocked or fails, keep the issue open, document the result, create a corrective PR, and retry verification. Maximum: **3 verification-fix retries**. If verification is still blocked/failing after retry 3, leave the issue open and reassign it to `@triesz` (peter.triesz@crowdprobe.com).
+        If verification is blocked or fails, keep the issue open, document the result, create a corrective PR, and retry verification. Maximum: **3 verification-fix retries**. If verification is still blocked/failing after retry 3, leave the issue open and reassign it to `@triesz`.
 
   - type: textarea
     id: goal
