@@ -6,7 +6,7 @@ This repository defines default organization-wide contribution guidance for Crow
 
 For agent-driven implementation work, the following lifecycle is authoritative unless a repository explicitly defines a stricter rule.
 
-1. When an agent starts work, claim the issue and assign it to the visible agent/bot account if GitHub permits that account to be an assignee. If the agent identity cannot be assigned directly, record the acting agent explicitly in the issue and/or project metadata.
+1. When an agent starts work, move the issue/project status to `In Progress`, claim the issue, and assign it to the visible agent/bot account if GitHub permits that account to be an assignee. If the agent identity cannot be assigned directly, record the acting agent explicitly in the issue and/or project metadata.
 2. When implementation is ready and a pull request is opened, update the issue description to include the PR link/number explicitly. Do not rely only on comments, branch naming, or implicit GitHub linkage.
 3. **Opening or merging a PR does not complete the issue.** Do not move the issue to `Done` or close it merely because a PR was opened or merged.
 4. After each implementation/fix PR is merged and deployed/applied where applicable, verify the actual result against the issue's acceptance criteria in the real target environment where reasonably possible. Never claim verification that was not actually performed.
