@@ -12,7 +12,7 @@ For agent-driven implementation work, the following lifecycle is authoritative u
 4. After each implementation/fix PR is merged and deployed/applied where applicable, verify the actual result against the issue's acceptance criteria in the real target environment where reasonably possible. Never claim verification that was not actually performed.
 5. If verification succeeds, document the verification result, move the corresponding project item to `Done` where applicable, and close the issue as completed.
 6. If verification is blocked or fails, document the blocker/failure, keep the issue open, create a new PR with the required fix, merge/apply it through the normal review process, and re-run verification. Count each corrective PR as one retry. **Maximum: 3 verification-fix retries.**
-7. If verification is still blocked or failing after retry 3, document the final status and remaining blocker/failure, stop automatic retries, leave the issue open, and reassign it to `@triesz` (peter.triesz@crowdprobe.com) for human follow-up.
+7. If verification is still blocked or failing after retry 3, document the final status and remaining blocker/failure, stop automatic retries, leave the issue open, and reassign it to `@triesz` for human follow-up.
 
 ## Verification expectations
 
