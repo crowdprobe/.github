@@ -11,7 +11,7 @@ body:
 
         This issue is governed by the Crowdprobe organization-wide agent lifecycle policy in `CONTRIBUTING.md`.
 
-        When an agent starts work, move the issue/project status to **`In Progress`**, then claim/identify the acting agent.
+        When an agent starts work, move the issue/project status to **`In Progress`**.
 
         **Opening or merging a PR does not complete the issue.** The result must be verified against the acceptance criteria after merge/deploy/apply as applicable.
 
