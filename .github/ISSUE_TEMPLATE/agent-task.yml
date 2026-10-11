@@ -11,7 +11,7 @@ body:
 
         This issue is governed by the Crowdprobe organization-wide agent lifecycle policy in `CONTRIBUTING.md`.
 
-        When an agent starts work, move the issue/project status to **`In Progress`**.
+        When an agent starts work, move the linked `Crowdprobe Workboard` project item to **`In Progress`** and post a short issue comment recording that the agent assumed ownership, including the acting agent identity and useful branch/run context. Do not assign the issue to the bot. If the project item/status cannot be accessed or updated, report that explicitly as a permissions/configuration problem.
 
         **Opening or merging a PR does not complete the issue.** The result must be verified against the acceptance criteria after merge/deploy/apply as applicable.
 
